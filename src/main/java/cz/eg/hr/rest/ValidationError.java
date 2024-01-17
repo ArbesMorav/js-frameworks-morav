@@ -1,4 +1,4 @@
 package cz.eg.hr.rest;
 
-public record ValidationError(String field, String message) {
+public record ValidationError(String shortMsg, String longMsg) {
 }
